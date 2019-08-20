@@ -5,7 +5,7 @@
 
 body {
     font-family: SHPinscher;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #00b600;
     background-color: #0c1d12;
     position:absolute;
@@ -14,11 +14,27 @@ body {
     height: auto;
 }
 
-.competences {
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 2.5%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2.5%;
+}
+
+.presentation {
     text-align: center;
 }
 
-/* Effet écran cathodique */
+/* Couleur de la selection */
+::-moz-selection {color:#000000;background:#00b600}
+::selection {color:#000000;background:#00b600}
+
+/* Barre de rafraichissement */
 .scanline {
   position: absolute;
   pointer-events: none;
@@ -32,6 +48,7 @@ body {
   animation: scanline 7.77s linear infinite;
 }
 
+/* Effet écran cathodique */
 .scanlines {
   position: absolute;
   pointer-events: none;
