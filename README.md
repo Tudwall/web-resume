@@ -7,4 +7,6 @@ TODO :
 - Mettre en page une présentation. FAIT
 - Ajouter les compétences dans les flexboxes. FAIT
 - Effet d'abberration chromatique en text-shadow. FAIT
+- Design responsive.
+- Support de l'anglais.
 - Effet de typewriter à l'ouverture du site avec un _ qui reste à clignoter à la fin.
