@@ -8,6 +8,7 @@ TODO :
 - Ajouter les compétences dans les flexboxes. FAIT
 - Effet d'abberration chromatique en text-shadow. FAIT
 - Design responsive.
-- Support de l'anglais.
+  - Problème de mise en page avec les compétences.
+- Support de l'anglais. (revoir la traduction.)
 - Formulaire de contact.
 - Effet de typewriter à l'ouverture du site avec un _ qui reste à clignoter à la fin.
