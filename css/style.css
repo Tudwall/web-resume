@@ -25,6 +25,10 @@ footer {
     border-top: 2px #00b600 solid;
 }
 
+#social a {
+    margin-right: 10px;
+}
+
 #smashicons {
     text-decoration: none;
 }
@@ -54,8 +58,9 @@ p {
 .dropbtn {
     background-color: #0c1d12;
     color: #00b600;
-    padding: 2px 1px;
-    font-size: 0.75em;
+    padding: 2px 2px;
+    font-family: SHPinscher;
+    font-size: 0.90em;
     border: 2px #00b600 solid;
     cursor: pointer;
     animation: chromAb 1.6s infinite;
@@ -301,12 +306,13 @@ p {
     }
 }
 
-
-/* TODO: border séparateur */
+/* RWD */
+/* TODO: 
+- border séparateur sur les compétences.
+*/
 @media all and (orientation: portrait) {
-    
+
     .progress {
         display: none;
     }
-    
 }
