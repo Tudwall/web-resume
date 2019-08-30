@@ -1,6 +1,6 @@
 # web-resume
 
-Début de cv en ligne.
+Cv en ligne.
 Font : SHPinscher-Regular.
 
 TODO :
