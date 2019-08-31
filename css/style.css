@@ -9,12 +9,12 @@ html {
 
 body {
     font-family: SHPinscher;
-    font-size: 1.5em;
+    font-size: 1.55em;
     color: #00b600;
     background-color: #0c1d12;
     position: absolute;
     width: auto;
-    min-width: 99.5%;
+    min-width: 99%;
     min-height: 98%;
     height: auto;
 }
@@ -37,13 +37,18 @@ footer {
 h1 {
     text-align: center;
     font-size: 2em;
-    margin-bottom: 2.5%;
 }
 
 h2 {
     text-align: center;
     font-size: 1.75em;
     margin-top: 2.5%;
+}
+
+#webdesigner {
+    margin-bottom: 2.5%;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 a {
@@ -53,6 +58,32 @@ a {
 
 p {
     text-align: center;
+}
+
+/* Projets */
+.projet {
+    text-align: center;
+}
+
+.projetImg {
+    width: 20%;
+    height: 20%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text {
+    transition: .5s ease;
+    opacity: 1;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    color: #00b600;
+}
+
+.projetImg:hover {
+    opacity: 0.5;
 }
 
 /* Bouton dropdown langues */
@@ -70,6 +101,8 @@ p {
 .dropdown {
     position: relative;
     display: inline-block;
+    float: left;
+    clear: right;
 }
 
 .dropdown-content {
@@ -93,9 +126,7 @@ p {
 }
 
 /* Flex des compétences */
-#htmlcss,
-#js,
-#anglais {
+.competence {
     display: flex;
     justify-content: space-evenly;
 }
@@ -128,27 +159,27 @@ p {
 
 /* Flex du parcours */
 
-#liin2017,
-#liin2016,
-#bac,
-#stage {
+.etude {
     display: flex;
     justify-content: space-evenly;
 }
 
 .date,
-.contenu {
+.contenu,
+.location {
     padding: 10px;
-    width: 50%;
+    width: 33%;
 }
 
 .date {
     text-align: right;
-    border-right: 2px #00b600 solid;
 }
 
 .contenu {
-    text-align: left;
+    text-align: center;
+    flex: 2;
+    border-right: 2px #00b600 solid;
+    border-left: 2px #00b600 solid;
 }
 
 /* Couleur de la selection */
@@ -181,7 +212,7 @@ p {
     position: absolute;
     pointer-events: none;
     width: auto;
-    min-width: 99.5%;
+    min-width: 100%;
     height: 100%;
     z-index: 5;
     background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
@@ -313,6 +344,7 @@ p {
 */
 @media all and (orientation: portrait) {
 
+    /* Compétences */
     .progress {
         display: none;
     }

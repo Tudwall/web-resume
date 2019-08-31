@@ -1,0 +1,193 @@
+/* Polices. */
+
+@font-face
+{
+  font-family: 'Comme-ExtraLight';
+  src: url('polices/Comme-ExtraLight.eot');
+  src: url('polices/Comme-ExtraLight.eot?#iefix') format('embedded-opentype'),
+       url('polices/Comme-ExtraLight.woff') format('woff'),
+       url('polices/Comme-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'Comme-Medium';
+  src: url('polices/Comme-Medium.eot');
+  src: url('polices/Comme-Medium.eot?#iefix') format('embedded-opentype'),
+       url('polices/Comme-Medium.woff') format('woff'),
+       url('polices/Comme-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'Comme-Regular';
+  src: url('polices/Comme-Regular.eot');
+  src: url('polices/Comme-Regular.eot?#iefix') format('embedded-opentype'),
+       url('polices/Comme-Regular.woff') format('woff'),
+       url('polices/Comme-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'Comme-Light';
+  src: url('polices/Comme-Light.eot');
+  src: url('polices/Comme-Light.eot?#iefix') format('embedded-opentype'),
+       url('polices/Comme-Light.woff') format('woff'),
+       url('polices/Comme-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Header. */
+
+header
+{
+  top: 0;
+  margin-bottom: 10%;
+}
+
+.logo
+{
+  font-family: 'Comme-Regular', serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+/* Navigation. */
+
+nav
+{
+  font-family: 'Comme-Light', Arial, sans-serif;
+  background-color: #0f5a9a;
+}
+
+nav ul
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a
+{
+  font-size: 1.3em;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover
+{
+  color: #e68d0e;
+  transition-duration: 0.4s;
+}
+
+/* Form. */
+
+div
+{
+  display: block;
+  text-align: center;
+}
+
+form
+{
+  width: 33%;
+  /* border: 2px dashed black; */
+  background-color:#BCBCBC;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Input text. */
+
+input[type=text]
+{
+  font-size: 1.1em;
+  padding : 12px 20px;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid #939393;
+  background-color: #BCBCBC;
+  width: 100%;
+}
+
+input[type=text]:hover
+{
+  border-bottom: 2px solid black;
+  transition-duration: 0.4s;
+}
+
+input[type=text]:focus
+{
+  border-bottom: 2px solid black;
+}
+
+/* Input password. */
+
+input[type=password]
+{
+  font-size: 1.1em;
+  padding : 12px 20px;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid #939393;
+  background-color: #BCBCBC;
+  width: 100%;
+}
+
+input[type=password]:hover
+{
+  border-bottom: 2px solid black;
+  transition-duration: 0.4s;
+}
+
+input[type=password]:focus
+{
+  border-bottom: 2px solid black;
+}
+
+#prenom, #nom, #pass
+{
+  margin-bottom: 5%;
+}
+
+#remember
+{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+/* Input submit. */
+
+input[type=submit]
+{
+  font-family: 'Comme-Regular', Arial, sans-serif;
+  font-weight: bold;
+  border: none;
+  padding: 16px 32px;
+  margin: 4px 2px;
+}
+
+input[type=submit]:hover
+{
+  background-color: #9F9F9F;
+  transition-duration: 0.4s;
+}
+
+/* Body. */
+
+body
+{
+  font-family: 'Comme-Regular', Arial, sans-serif;
+  background-color: #CCCCCC;
+}
