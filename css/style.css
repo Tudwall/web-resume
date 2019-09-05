@@ -158,7 +158,6 @@ p {
 }
 
 /* Flex du parcours */
-
 .etude {
     display: flex;
     justify-content: space-evenly;
@@ -339,13 +338,11 @@ p {
 }
 
 /* RWD */
-/* TODO: 
-- border séparateur sur les compétences.
-*/
-@media all and (orientation: portrait) {
+@media all and (max-width: 600px) {
 
     /* Compétences */
     .progress {
         display: none;
     }
 }
+
