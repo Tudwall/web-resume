@@ -1,6 +1,6 @@
 # web-resume
 
-Cv en ligne.
+CV en ligne.
 Font : SHPinscher-Regular.
 
 TODO :
@@ -8,7 +8,8 @@ TODO :
 - Ajouter les compétences dans les flexboxes. FAIT
 - Effet d'abberration chromatique en text-shadow. FAIT
 - Design responsive.
-  - Problème de mise en page avec les compétences.
+  - Problème de mise en page avec les compétences. FAIT
+  - Problème de mise en page responsive avec le parcours.
 - Support de l'anglais. (revoir la traduction.)
 - Formulaire de contact.
 - Effet de typewriter à l'ouverture du site avec un _ qui reste à clignoter à la fin.
